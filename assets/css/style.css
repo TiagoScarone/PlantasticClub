@@ -1319,7 +1319,8 @@ section {
   line-height: 20px;
   color: #777777;
   text-align: left;
-  padding: 0 0.3vh 0 0;
+  padding: 0 0 0 0;
+  font-weight: 500;
 }
 
 .team .member:hover .social {
