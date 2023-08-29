@@ -2323,3 +2323,10 @@ section {
   position: absolute;
   background: #B6E885;
 }
+
+
+.row-faq {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
