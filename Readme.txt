@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Bienvenidos a Plantastic Club.
+Tiago Nicolás Scarone.
+DG3 Belluccia 2023.
 
-Template Name: Presento
-Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+La plantilla utilizada para realizar en trabajo fue Presento y se puede descargar del siguiente lik: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+
