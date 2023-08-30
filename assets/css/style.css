@@ -120,12 +120,12 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   display: inline-flex;
 }
 
 .get-started-btn:hover {
-  background: #806457;
+  background: #3f5c22;
   color: #fff;
 }
 
@@ -1113,38 +1113,46 @@ section {
 }
 
 .pricing .box {
-  padding: 10px;
+  padding: 20px;
   background: #FFF0EF;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  margin: auto;
+  border: 2px solid #FFF0EF;
 }
 
 .pricing .box h2 {
+  margin-top: 30px;
   font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
   color: #4B3124;
 }
 
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 800;
+  color: #4B3124;
+}
+
+.pricing .box h3 span {
+  font-size: 14px;
+  font-weight: 300;
   color: #4B3124;
 }
 
 .pricing .box h4 {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   font-family: Sora, sans-serif;
   margin-bottom: 20px;
   color: #4B3124;
+  letter-spacing: 2px;
 }
 
 .pricing .box h4 sup {
@@ -1154,14 +1162,8 @@ section {
   color: #4B3124;
 }
 
-.pricing .box h4 span {
-  font-size: 16px;
-  font-weight: 300;
-  color: #4B3124;
-}
-
 .pricing .box ul {
-  padding: 0;
+  padding: 30px 0 0;
   list-style: none;
   text-align: center;
   line-height: 20px;
@@ -1172,6 +1174,8 @@ section {
 .pricing .box ul li {
   padding-bottom: 16px;
   color: #4B3124;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .pricing .box ul i {
@@ -1186,32 +1190,48 @@ section {
   color: #4B3124;
 }
 
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-  color: #4B3124;
-}
-
 .pricing .box .btn-buy {
   display: inline-block;
   padding: 10px 40px 12px 40px;
-  border-radius: 4px;
-  color: #4B3124;
+  border-radius: 6px;
+  color: #82B64F;
   transition: none;
   font-size: 14px;
-  font-weight: 400;
-  font-family: Sora, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid #82B64F;
+  letter-spacing: 1.5px;
 }
 
 .pricing .box .btn-buy:hover {
-  border-color: #fff;
+  border-color: #3f5c22;
+  color: #fff;
+  background-color: #3f5c22;
 }
 
 .pricing .featured {
-  background: #e03a3c;
+  background: #FFF0EF;
+  border: 4px solid #4B3124;
+}
+
+.pricing .box .btn-buy-featured {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 2px solid #82B64F;
+  background-color: #82B64F;
+  letter-spacing: 1.5px;
+}
+
+.pricing .box .btn-buy-featured:hover {
+  border-color: #3f5c22;
+  color: #fff;
+  background-color: #3f5c22;
 }
 
 /*.section-price {
