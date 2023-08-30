@@ -1301,14 +1301,16 @@ section {
 }
 
 .team .member .member-porque {
-  padding: 25px 0;
+  padding: 45px 0;
 }
 
 .team .member .member-porque h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #111111;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #4B3124;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .team .member .member-porque h3 {
@@ -1316,15 +1318,16 @@ section {
   font-size: 14x;
   font-weight: 400;
   color: #aaaaaa;
+  text-align: center;
 }
 
 .team .member .member-porque p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 160%;
   color: #777777;
-  text-align: left;
+  text-align: center;
   padding: 0 0 0 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .team .member:hover .social {
@@ -1423,6 +1426,7 @@ section {
   padding-top: 130px;
 }
 
+
 .nuestro .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1479,8 +1483,8 @@ section {
 .nuestro .member .member-porque h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 18px;
-  color: #111111;
+  font-size: 16px;
+  color: #4B3124;
 }
 
 .nuestro .member .member-porque h3 {
@@ -2305,7 +2309,7 @@ section {
 .rowteam {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .marca {
