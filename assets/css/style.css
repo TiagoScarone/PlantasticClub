@@ -79,7 +79,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(235, 235, 235, 0.75);
+  background: rgba(255, 232, 231, 0.70);
   backdrop-filter: blur(12px);
   transition: all 0.5s;
   z-index: 997;
@@ -101,7 +101,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #2E4F2F;
+  color: #4B3124;
 }
 
 #header .logo img {
@@ -113,8 +113,8 @@ h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #2E4F2F;
-  color: #fff;
+  background: #82B64F;
+  color: #ffffff;
   border-radius: 8px;
   padding: 10px 16px;
   white-space: nowrap;
@@ -125,7 +125,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #1d2c1e;
+  background: #806457;
   color: #fff;
 }
 
@@ -168,7 +168,7 @@ h6 {
   font-family: Sora, sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #111111;
+  color: #4B3124;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -184,7 +184,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2E4F2F;
+  color: #c2894d;
 }
 
 .navbar .dropdown ul {
@@ -364,17 +364,16 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 130vh;
-  background: url("../img/herofullbg2.png") top center no-repeat;
+  height: 100vh;
+  background-color: #FFE8E7;
   background-size: cover;
   position: relative;
 }
 
 .rowhero {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 70vh;
+  text-align: left;
+  align-items: center;
 }
 
 
@@ -388,12 +387,12 @@ h6 {
   margin: 0;
   font-size: 72px;
   font-weight: 800;
-  color: #2E4F2F;
+  color: #4B3124;
   line-height: 105%;
 }
 
 #hero h2 {
-  color: #2E4F2F;
+  color: #4B3124;
   margin: 3vh 0 0 0;
   font-size: 16px;
   font-weight: 400;
@@ -2321,9 +2320,18 @@ section {
   margin-left: -4px;
   margin-top: 25px;
   position: absolute;
-  background: #B6E885;
+  background: #F9C184;
 }
 
+.img-hero {
+  padding-top: 50px;
+  max-width: 105%;
+  height: auto;
+}
+ 
+.subtitulo-hero{
+  padding-top: 20px;
+}
 
 .row-faq {
   display: flex;
@@ -2342,3 +2350,4 @@ section {
     padding: 0 8px 0;
   }
 }
+
