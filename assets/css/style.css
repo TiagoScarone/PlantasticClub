@@ -1108,17 +1108,26 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 #pricing {
-  background: #F9C184;
+  background-color: #F9C184;
   padding-top: 120px;
 }
 
 .pricing .box {
-  padding: 20px;
-  background: #2b2b2b;
+  padding: 10px;
+  background: #FFF0EF;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+}
+
+.pricing .box h2 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #4B3124;
 }
 
 .pricing .box h3 {
@@ -1127,24 +1136,28 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
+  color: #4B3124;
 }
 
 .pricing .box h4 {
-  font-size: 42px;
+  font-size: 14px;
   font-weight: 500;
   font-family: Sora, sans-serif;
   margin-bottom: 20px;
+  color: #4B3124;
 }
 
 .pricing .box h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
+  color: #4B3124;
 }
 
 .pricing .box h4 span {
   font-size: 16px;
   font-weight: 300;
+  color: #4B3124;
 }
 
 .pricing .box ul {
@@ -1153,33 +1166,37 @@ section {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
+  color: #4B3124;
 }
 
 .pricing .box ul li {
   padding-bottom: 16px;
+  color: #4B3124;
 }
 
 .pricing .box ul i {
-  color: #e03a3c;
   font-size: 18px;
   padding-right: 4px;
+  color: #4B3124;
+
 }
 
 .pricing .box ul .na {
-  color: rgba(255, 255, 255, 0.5);
   text-decoration: line-through;
+  color: #4B3124;
 }
 
 .pricing .box .btn-wrap {
   padding: 15px;
   text-align: center;
+  color: #4B3124;
 }
 
 .pricing .box .btn-buy {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 4px;
-  color: #fff;
+  color: #4B3124;
   transition: none;
   font-size: 14px;
   font-weight: 400;
