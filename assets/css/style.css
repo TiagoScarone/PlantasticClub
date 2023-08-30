@@ -2349,7 +2349,7 @@ section {
 
 .listita{
   padding-bottom: 7vh;
-  padding-right: 5vh;
+  padding-right: 3.5vh;
 }
 
 .listita li{
@@ -2363,6 +2363,29 @@ section {
   font-weight: 400;
   color: #4B3124;
 
+}
+
+.listita-fin{
+  padding-right: 3.5vh;
+}
+
+.listita-fin li{
+  font-weight: 800;
+  color: #4B3124;
+  letter-spacing: 2.2px;
+  font-size: 15px;
+}
+
+.listita-fin p{
+  font-weight: 400;
+  color: #4B3124;
+
+}
+
+#tabs{
+    padding: 0 0 100px 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .row-doble {
