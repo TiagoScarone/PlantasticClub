@@ -462,7 +462,7 @@ section {
   font-weight: 800;
   position: relative;
   margin-bottom: 8vh;
-  color: #2E4F2F;
+  color: #4B3124;
 }
 
 .section-title h4 {
@@ -471,7 +471,7 @@ section {
   position: relative;
   letter-spacing: 2px;
   margin-bottom: 2vh;
-  color: #2E4F2F;
+  color: #4B3124;
 }
 
 .section-title p {
@@ -483,7 +483,7 @@ section {
   color: #fff;
 }
 
-.section-bg:before {
+/*.section-bg:before {
   content: "";
   background: #1b1b1b;
   position: absolute;
@@ -491,7 +491,7 @@ section {
   top: 60px;
   left: 0;
   right: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -572,6 +572,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+#about{
+  background: #AAAAAA;
+}
+
 .about .container {
   position: relative;
   z-index: 10;
@@ -1413,6 +1418,10 @@ section {
 /*--------------------------------------------------------------
 # Nuestro servicio
 --------------------------------------------------------------*/
+
+#nuestro{
+  padding-top: 130px;
+}
 
 .nuestro .member {
   margin-bottom: 20px;
