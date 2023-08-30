@@ -469,8 +469,8 @@ section {
   font-size: 14px;
   font-weight: 500;
   position: relative;
-  letter-spacing: 2px;
-  margin-bottom: 2vh;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
   color: #4B3124;
 }
 
@@ -1301,7 +1301,7 @@ section {
 }
 
 .team .member .member-porque {
-  padding: 45px 40px;
+  padding: 45px 0;
 }
 
 .team .member .member-porque h4 {
@@ -1320,6 +1320,7 @@ section {
   text-align: center;
   padding: 0 0 0 0;
   font-weight: 400;
+  padding: 0 40px;
 }
 
 .team .member:hover .social {
@@ -2337,6 +2338,9 @@ section {
 .subtitulo-hero{
   padding-top: 20px;
 }
+
+#main{
+  background-color: #FFF0EF;}
 
 .row-faq {
   display: flex;
