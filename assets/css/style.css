@@ -2334,6 +2334,11 @@ section {
   max-width: 105%;
   height: auto;
 }
+
+.img-porque {
+  max-width: 100%;
+  height: auto;
+}
  
 .subtitulo-hero{
   padding-top: 20px;
