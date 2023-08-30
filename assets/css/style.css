@@ -446,7 +446,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
   position: relative;
 }
@@ -1310,7 +1310,7 @@ section {
   font-size: 15px;
   color: #4B3124;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 2.2px;
 }
 
 .team .member .member-porque p {
@@ -2341,6 +2341,30 @@ section {
 
 #main{
   background-color: #FFF0EF;}
+
+.listita{
+  padding-bottom: 7vh;
+  padding-right: 5vh;
+}
+
+.listita li{
+  font-weight: 800;
+  color: #4B3124;
+  letter-spacing: 2.2px;
+  font-size: 15px;
+}
+
+.listita p{
+  font-weight: 400;
+  color: #4B3124;
+
+}
+
+.row-doble {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .row-faq {
   display: flex;
