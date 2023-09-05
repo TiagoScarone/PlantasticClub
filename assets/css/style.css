@@ -147,7 +147,7 @@ h6 {
 */
 .navbar {
   padding: 0;
-  
+
 }
 
 .navbar ul {
@@ -576,7 +576,7 @@ section {
 # About
 --------------------------------------------------------------*/
 
-#about{
+#about {
   background: #AAAAAA;
 }
 
@@ -1258,7 +1258,7 @@ section {
   padding: 0 25% 0;
 }
 
-.titulo-planes h2{
+.titulo-planes h2 {
   text-align: center;
   position: relative;
   font-size: 18px;
@@ -1337,7 +1337,12 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  
+}
+
+.team .member .member-img:hover {
+  border: 2px solid #f3cfce;
+  border-radius: 19px;
+  box-sizing: border-box;
 }
 
 .team .member .social {
@@ -1491,7 +1496,7 @@ section {
 # Nuestro servicio
 --------------------------------------------------------------*/
 
-#nuestro{
+#nuestro {
   padding-top: 130px;
 }
 
@@ -1506,7 +1511,7 @@ section {
 .nuestro .member .member-img {
   position: relative;
   overflow: hidden;
-  
+
 }
 
 .nuestro .member .social {
@@ -2387,13 +2392,15 @@ section {
 }
 
 
-.highlight-container, .highlight {
+.highlight-container,
+.highlight {
   position: relative;
 }
 
 .highlight-container {
   display: inline-block;
 }
+
 .highlight-container:before {
   content: " ";
   display: block;
@@ -2403,6 +2410,17 @@ section {
   margin-top: 25px;
   position: absolute;
   background: #F9C184;
+}
+
+.highlight-container:hover:before {
+  content: " ";
+  display: block;
+  height: 68%;
+  width: 106%;
+  margin-left: -4px;
+  margin-top: 25px;
+  position: absolute;
+  background: #bab275;
 }
 
 .img-hero {
@@ -2415,59 +2433,60 @@ section {
   max-width: 100%;
   height: auto;
 }
- 
+
 .img-box {
   max-width: 100%;
   height: auto;
 }
 
-.subtitulo-hero{
+.subtitulo-hero {
   padding-top: 20px;
 }
 
-#main{
-  background-color: #FFF0EF;}
+#main {
+  background-color: #FFF0EF;
+}
 
-.listita{
+.listita {
   padding-bottom: 7vh;
   padding-right: 3.5vh;
 }
 
-.listita li{
+.listita li {
   font-weight: 800;
   color: #4B3124;
   letter-spacing: 2.2px;
   font-size: 15px;
 }
 
-.listita p{
+.listita p {
   font-weight: 400;
   font-size: 15px;
   color: #4B3124;
   line-height: 150%;
-  }
+}
 
-.listita-fin{
+.listita-fin {
   padding-right: 3.5vh;
 }
 
-.listita-fin li{
+.listita-fin li {
   font-weight: 800;
   color: #4B3124;
   letter-spacing: 2.2px;
   font-size: 15px;
 }
 
-.listita-fin p{
+.listita-fin p {
   font-weight: 400;
   color: #4B3124;
 
 }
 
-#tabs{
-    padding: 0 0 100px 0;
-    overflow: hidden;
-    position: relative;
+#tabs {
+  padding: 0 0 100px 0;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -2490,8 +2509,7 @@ section {
     flex-wrap: nowrap;
     width: 100%;
     flex-direction: column;
-    gap: 0; 
+    gap: 0;
     padding: 0 8px 0;
   }
 }
-
