@@ -1124,12 +1124,15 @@ section {
   overflow: hidden;
   margin: auto;
   border: 2px solid #FFF0EF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pricing .box h2 {
   margin-top: 30px;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 21px;
   letter-spacing: 1.5px;
   font-weight: 800;
   color: #4B3124;
@@ -1197,11 +1200,11 @@ section {
 
 .pricing .box .btn-buy {
   display: inline-block;
-  padding: 10px 40px 12px 40px;
+  padding: 10px 30px 12px 30px;
   border-radius: 6px;
   color: #82B64F;
   transition: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   transition: 0.3s;
   border: 2px solid #82B64F;
@@ -1221,11 +1224,11 @@ section {
 
 .pricing .box .btn-buy-featured {
   display: inline-block;
-  padding: 10px 40px 12px 40px;
+  padding: 10px 30px 12px 30px;
   border-radius: 4px;
   color: #fff;
   transition: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   transition: 0.3s;
   border: 2px solid #82B64F;
@@ -1237,6 +1240,10 @@ section {
   border-color: #3f5c22;
   color: #fff;
   background-color: #3f5c22;
+}
+
+.precios {
+  margin-top: auto;
 }
 
 /*.section-price {
