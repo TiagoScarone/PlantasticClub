@@ -2410,6 +2410,7 @@ section {
   margin-top: 25px;
   position: absolute;
   background: #F9C184;
+  transition: color 0.3s ease;
 }
 
 .highlight-container:hover:before {
@@ -2422,6 +2423,7 @@ section {
   position: absolute;
   background: #bab275;
 }
+
 
 .img-hero {
   padding-top: 90px;
