@@ -415,7 +415,6 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #fff4f4;
   border-color: #82B64F;
   color: #82B64F;
 }
@@ -515,6 +514,66 @@ section {
   letter-spacing: 3px;
   margin-bottom: 3vh;
   color: #4B3124;
+}
+
+.section-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section-about h2 {
+  font-size: 50px;
+  font-weight: 800;
+  /*margin-bottom: 8vh;*/
+  color: #4B3124;
+  line-height: 130%;
+}
+
+.section-about h4 {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
+  color: #4B3124;
+}
+
+.section-about p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #4B3124;
+  line-height: 150%;
+  width: 68%;
+}
+
+.section-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-contacto h2 {
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 5vh;
+  color: #4B3124;
+}
+
+.section-contacto h4 {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
+  color: #4B3124;
+}
+
+.section-contacto p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #4B3124;
+  line-height: 150%;
 }
 
 /*--------------------------------------------------------------
@@ -1134,6 +1193,7 @@ section {
 #pricing {
   background-color: #F9C184;
   padding-top: 120px;
+  padding-bottom: 5%;
 }
 
 .pricing .box {
@@ -1643,7 +1703,7 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  /*box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);*/
   padding: 30px;
   border-radius: 4px;
 }
@@ -1714,16 +1774,17 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #e03a3c;
+  background: #82B64F;
   border: 0;
-  padding: 10px 32px;
+  padding: 12px 39%;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  font-size: 15px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #e35052;
+  background: #3f5c22;
 }
 
 @keyframes animate-loading {
@@ -2523,6 +2584,13 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.row-doble-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 9%;
 }
 
 .row-faq {
