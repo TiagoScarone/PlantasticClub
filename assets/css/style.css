@@ -418,7 +418,6 @@ h6 {
   background: #fff4f4;
   border-color: #82B64F;
   color: #82B64F;
-  font-weight: 500;
 }
 
 
@@ -1199,7 +1198,7 @@ section {
   color: #4B3124;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 9px;
 }
 
 .pricing .box ul li {
@@ -2455,7 +2454,6 @@ section {
 
 
 .img-hero {
-  padding-top: 90px;
   max-width: 105%;
   height: auto;
 }
