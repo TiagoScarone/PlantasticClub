@@ -379,8 +379,6 @@ h6 {
   align-items: center;
 }
 
-
-
 /*#hero:before {
   content: "";
   position: absolute;
@@ -404,24 +402,25 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: Sora, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 4px;
   transition: 0.5s;
-  margin-top: 30px;
+  margin-top: 40px;
   color: #fff;
-  background: #2E4F2F;
-  border: 2px solid #2E4F2F;
+  background: #82B64F;
+  border: 2px solid #82B64F;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 #hero .btn-get-started:hover {
-  background: transparent;
-  border-color: #fff;
+  background: #fff4f4;
+  border-color: #82B64F;
+  color: #82B64F;
+  font-weight: 500;
 }
+
 
 @media (max-width: 768px) {
   #hero {
@@ -495,6 +494,29 @@ section {
   left: 0;
   right: 0;
 }*/
+
+.section-precios {
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-precios h2 {
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 8vh;
+  color: #4B3124;
+}
+
+.section-precios h4 {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
+  color: #4B3124;
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1255,7 +1277,7 @@ section {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 20px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .titulo-planes {
