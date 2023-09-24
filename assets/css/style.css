@@ -1250,6 +1250,12 @@ section {
   color: #4B3124;
 }
 
+.pricing .box h5 {
+  font-size: 12px;
+  color: #4B3124;
+  top: 15px;
+}
+
 .pricing .box ul {
   padding: 20px 0 20px 0;
   list-style: none;
@@ -1282,15 +1288,14 @@ section {
 
 .pricing .box .btn-buy {
   display: inline-block;
-  padding: 10px 30px 12px 30px;
+  padding: 12px 60px 12px 60px;
   border-radius: 6px;
   color: #82B64F;
   transition: none;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   transition: 0.3s;
   border: 2px solid #82B64F;
-  letter-spacing: 1.5px;
 }
 
 .pricing .box .btn-buy:hover {
@@ -1306,16 +1311,15 @@ section {
 
 .pricing .box .btn-buy-featured {
   display: inline-block;
-  padding: 10px 30px 12px 30px;
+  padding: 12px 60px 12px 60px;
   border-radius: 4px;
   color: #fff;
   transition: none;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   transition: 0.3s;
   border: 2px solid #82B64F;
   background-color: #82B64F;
-  letter-spacing: 1.5px;
 }
 
 .pricing .box .btn-buy-featured:hover {
