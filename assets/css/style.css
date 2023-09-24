@@ -187,7 +187,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #c2894d;
+  color: #82B64F;
 }
 
 .navbar .dropdown ul {
@@ -575,6 +575,7 @@ section {
   font-size: 15px;
   color: #4B3124;
   line-height: 150%;
+  padding-right: 110px;
 }
 
 /*--------------------------------------------------------------
@@ -1401,6 +1402,7 @@ section {
 .faq .faq-list p {
   font-size: 15px;
   margin-bottom: 0;
+  color: #4B3124;
   padding: 10px 0 0 0;
 }
 
@@ -1409,7 +1411,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #4B3124;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1770,15 +1772,17 @@ section {
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
+  background-color: #FFECEB;
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #111111;
+  border-color: #4B3124;
 }
 
 .contact .php-email-form input {
   padding: 10px 15px;
+  background-color: #FFECEB;
 }
 
 .contact .php-email-form textarea {
@@ -2586,7 +2590,13 @@ section {
 }
 
 #tabs {
-  padding: 0 0 100px 0;
+  padding: 0 0 120px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#nosotros {
+  padding: 0 0 120px 0;
   overflow: hidden;
   position: relative;
 }
@@ -2702,19 +2712,6 @@ section {
   column-gap: 20px;
 }
 
-
-
-@media (max-width: 992px) {
-  .row-faq {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    flex-direction: column;
-    gap: 0;
-    padding: 0 8px 0;
-  }
-}
-
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
@@ -2743,5 +2740,61 @@ section {
 }
 
 .carousel{
-  height: 450px;
+  height: 480px;
+}
+
+
+#favoritas {
+  padding: 90px 0 70px 0;
+  overflow: hidden;
+  position: relative;
+  background: #FFE8E6;
+}
+
+#favoritas p{
+  font-weight: 400;
+  color: #4B3124;
+  margin: 0 20%;
+}
+
+#favoritas h5{
+  font-weight: 400;
+  color: #4B3124;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.seccion-favoritas {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  justify-content: space-evenly
+}
+
+.plantas {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0 15px;
+}
+
+#favoritas .section-title h2 {
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 6vh;
+  color: #4B3124;
+}
+
+@media (max-width: 992px) {
+  .row-faq {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 8px 0;
+  }
 }
