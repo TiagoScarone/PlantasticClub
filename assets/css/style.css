@@ -2874,7 +2874,7 @@ section {
 
   #hero {
     text-align: center;
-    padding-top: 88px;
+    padding-top: 140px;
     height: 113vh;
   }
 
@@ -2994,6 +2994,65 @@ section {
     text-align: center;
     width: 100%;
     padding: 0 15px 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #miembros {
+    height: 130vh;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -12.5rem;
+  }
+
+  .comentario p {
+    padding: 50px 10% 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #favoritas .section-title h2 {
+    font-size: 44px;
+  }
+
+  #favoritas p {
+    font-weight: 400;
+    color: #4B3124;
+    margin: 0 15px;
+  }
+
+  .plantas {
+    width: 45%;
+  }
+
+  .seccion-favoritas {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  #faq {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .section-contacto h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .section-contacto p {
+    padding-right: 0;
+    text-align: center;
+    padding: 0 20px 60px;
+  }
+
+  #contact {
+    padding-bottom: 60px;
   }
 
 }
