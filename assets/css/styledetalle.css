@@ -2556,7 +2556,6 @@ section {
   font-weight: 800;
 }
 
-
 .highlight-container,
 .highlight {
   position: relative;
@@ -2847,6 +2846,108 @@ section {
   position: relative;
   margin-bottom: 6vh;
   color: #4B3124;
+}
+
+
+
+
+
+
+
+.row-botanico {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  flex: 0 0 auto;
+  width: 45%;
+}
+
+#agregado {
+  padding-top: 130px;
+  background: #82B64F ;
+}
+
+.section-title-add {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.section-title-add h2 {
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 8vh;
+  color: #ffffff;
+}
+
+.section-title-add h4 {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
+  color: #ffffff;
+}
+
+.section-title-add p {
+  margin-bottom: 0;
+  color: #Fff;
+}
+
+.etc {
+  display: flex;
+  justify-content: center; 
+}
+
+.etc img{
+  max-width: 100%;
+}
+
+.descripcion {
+  padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descripcion h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2.8px;
+}
+
+.descripcion p {
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 0 0 0;
+  font-weight: 300;
+  padding: 0 67px;
+}
+
+.btn-conoce-mas {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+  margin-top: 25px;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  width: 85%;
+}
+
+.descripcion a{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
