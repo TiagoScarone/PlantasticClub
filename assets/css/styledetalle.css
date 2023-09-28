@@ -3246,4 +3246,8 @@ section {
   #favoritas {
     padding: 120px 0 60px 0;
   }
+
+  .team .member .member-porque h4 {
+    font-size: 17px;
+  }
 }
