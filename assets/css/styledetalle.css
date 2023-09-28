@@ -444,27 +444,6 @@ h6 {
 }
 
 
-@media (max-width: 768px) {
-  #hero {
-    text-align: center;
-    padding-top: 58px;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-
-@media (max-height: 500px) {
-  #hero {
-    height: 120vh;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1325,9 +1304,9 @@ section {
   border: 4px solid #4B3124;
 }
 
-.pricing .box .btn-wrap .btn-buy-featured{
+.pricing .box .btn-wrap .btn-buy-featured {
   display: inline-block;
-  padding: 14px 45px; 
+  padding: 14px 45px;
   color: #fff;
   transition: none;
   font-size: 14px;
@@ -1347,16 +1326,16 @@ section {
   background-color: #3f5c22;
 }
 
-.pricing .box .btn-wrap-none .btn-buy-featured{
+.pricing .box .btn-wrap-none .btn-buy-featured {
   display: inline-block;
-  padding: 14px 45px; 
+  padding: 14px 45px;
   color: #82B64F;
   transition: none;
   font-size: 14px;
   font-weight: 600;
 }
 
-.pricing .box .btn-wrap-none .btn-buy-featured:hover{
+.pricing .box .btn-wrap-none .btn-buy-featured:hover {
   color: #Fff;
 }
 
@@ -1488,7 +1467,7 @@ section {
   box-sizing: border-box;
 }
 
-.team .member .member-img img:hover{
+.team .member .member-img img:hover {
   transform: scale(1.02);
 }
 
@@ -1875,7 +1854,7 @@ section {
   background-clip: padding-box;
   border: none;
   border-radius: var(--bs-border-radius);
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 @keyframes animate-loading {
@@ -2410,7 +2389,7 @@ section {
   background: #F9C184;
 }
 
-#footer img{
+#footer img {
   max-width: 50%;
 }
 
@@ -2822,7 +2801,7 @@ section {
   justify-content: center;
 }
 
-.carousel{
+.carousel {
   height: 480px;
 }
 
@@ -2832,13 +2811,13 @@ section {
   position: relative;
 }
 
-#favoritas p{
+#favoritas p {
   font-weight: 400;
   color: #4B3124;
   margin: 0 20%;
 }
 
-#favoritas h5{
+#favoritas h5 {
   font-weight: 400;
   color: #4B3124;
   font-size: 14px;
@@ -2851,7 +2830,7 @@ section {
   gap: 20px;
 }
 
-.seccion-favoritas img{
+.seccion-favoritas img {
   cursor: pointer;
 }
 
@@ -2890,7 +2869,7 @@ section {
 
 #agregado {
   padding-top: 130px;
-  background: #82B64F ;
+  background: #82B64F;
 }
 
 .section-title-add {
@@ -2923,10 +2902,10 @@ section {
 
 .etc {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
-.etc img{
+.etc img {
   max-width: 100%;
 }
 
@@ -2967,14 +2946,14 @@ section {
   width: 85%;
 }
 
-.descripcion a{
+.descripcion a {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
   text-align: center;
 }
 
-.descripcion img{
+.descripcion img {
   padding-left: 4px;
 }
 
@@ -2999,5 +2978,272 @@ section {
     flex-direction: column;
     gap: 0;
     padding: 0 8px 0;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  #header {
+    padding-left: 8px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  #hero {
+    text-align: center;
+    padding-top: 58px;
+  }
+
+  .rowhero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  #hero h1 {
+    font-size: 44px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 25px;
+  }
+
+  .subtitulo-hero {
+    padding-top: 20px;
+    max-width: 100%
+  }
+
+  #hero h3 {
+    text-align: center;
+  }
+
+  #hero h4 {
+    text-align: center;
+  }
+
+  #hero .btn-get-started {
+    width: 100%;
+    text-align: center;
+  }
+
+  .highlight-container:before {
+    height: 58%;
+  }
+
+  .img-hero {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .section-title {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .section-title h2 {
+    font-size: 44px;
+    margin: 0 0 75px;
+  }
+
+  .rowteam {
+    padding: 0 20px;
+  }
+
+  .img-porque {
+    padding-top: 10px;
+  }
+
+  .porque-mobile {
+    text-align: center;
+  }
+
+  .listita {
+    padding: 0 30px 60px;
+  }
+
+  .listita-fin {
+    padding: 0 20px 60px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .section-precios h2 {
+    font-size: 44px;
+    margin: 0 0 10px 0;
+  }
+
+  .row-price {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #pricing {
+    padding-bottom: 15%;
+  }
+
+  .pricing .box ul li {
+    padding: 0 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .row-doble-about {
+    padding: 80px 0 0;
+  }
+
+  .section-about h4 {
+    text-align: center;
+  }
+
+  .section-about h2 {
+    text-align: center;
+    padding: 40px 5px;
+    font-size: 44px;
+  }
+
+  .section-about p {
+    text-align: center;
+    width: 100%;
+    padding: 0 15px 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #miembros {
+    height: 130vh;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -12.5rem;
+  }
+
+  .comentario p {
+    padding: 50px 10% 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #favoritas .section-title h2 {
+    font-size: 44px;
+    padding: 0 10px;
+  }
+
+  #favoritas p {
+    font-weight: 400;
+    color: #4B3124;
+    margin: 0 15px;
+  }
+
+  .plantas {
+    width: 45%;
+  }
+
+  .seccion-favoritas {
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+
+  #faq {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .section-contacto h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .section-contacto p {
+    padding-right: 0;
+    text-align: center;
+    padding: 0 20px 60px;
+  }
+
+  #contact {
+    padding-bottom: 60px;
+  }
+
+  .contacto-mobile {
+    padding-left: 15px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .section-title-add h2 {
+    font-size: 44px;
+  }
+
+  .row-botanico {
+    flex-direction: column;
+  }
+
+  .add {
+    width: 100%;
+  }
+
+  .descripcion p {
+    padding: 0 25px;
+  }
+
+  .descripcion h4 {
+    line-height: 140%;
+  }
+
+  .btn-conoce-mas {
+    margin-top: 15px;
+  }
+
+  .pagos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 16px;
+  }
+
+  .pagos img {
+    width: 45%;
+  }
+
+  #metodos {
+    padding: 80px 0 80px;
+  }
+
+  #favoritas {
+    padding: 120px 0 60px 0;
   }
 }
