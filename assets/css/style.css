@@ -108,7 +108,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 25px;
 }
 
 /*--------------------------------------------------------------
@@ -156,6 +156,7 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  gap: 5px;
 }
 
 .navbar li {
@@ -169,7 +170,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: Sora, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: #4B3124;
   white-space: nowrap;
@@ -213,7 +214,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .navbar .dropdown ul a i {
@@ -417,9 +418,10 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  border-color: #82B64F;
-  background: transparent;
-  color: #82B64F;
+  border-color: #3f5c22;
+  color: #fff;
+  background-color: #3f5c22;
+  transition: 1.5s;
 }
 
 
@@ -1229,12 +1231,28 @@ section {
   font-size: 24px;
   font-weight: 800;
   color: #4B3124;
+  margin: 0 0 20px;
 }
 
 .pricing .box h3 span {
   font-size: 14px;
   font-weight: 300;
   color: #4B3124;
+}
+
+.destacado {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #82B64F;
+  margin: 0 0 20px;
+}
+
+.destacado span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #82B64F;
 }
 
 .pricing .box h4 {
@@ -1253,12 +1271,6 @@ section {
   color: #4B3124;
 }
 
-.pricing .box h5 {
-  font-size: 12px;
-  color: #4B3124;
-  top: 15px;
-}
-
 .pricing .box ul {
   padding: 20px 0 20px 0;
   list-style: none;
@@ -1268,7 +1280,7 @@ section {
   color: #4B3124;
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 16px;
 }
 
 .pricing .box ul li {
@@ -1278,7 +1290,7 @@ section {
 }
 
 .pricing .box ul i {
-  font-size: 15px;
+  font-size: 12px;
   padding: 0 0 0;
   color: #4B3124;
   font-weight: 900;
@@ -1289,43 +1301,54 @@ section {
   color: #4B3124;
 }
 
-.pricing .box .btn-buy {
-  display: inline-block;
-  padding: 12px 60px 12px 60px;
-  border-radius: 6px;
-  color: #82B64F;
-  transition: none;
-  font-size: 14px;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 2px solid #82B64F;
-}
-
-.pricing .box .btn-buy:hover {
-  border-color: #3f5c22;
-  color: #fff;
-  background-color: #3f5c22;
-}
-
 .pricing .featured {
   background: #FFF0EF;
   border: 4px solid #4B3124;
 }
 
-.pricing .box .btn-buy-featured {
+.pricing .box .btn-wrap .btn-buy-featured{
   display: inline-block;
-  padding: 12px 60px 12px 60px;
-  border-radius: 4px;
+  padding: 14px 45px; 
   color: #fff;
   transition: none;
   font-size: 14px;
   font-weight: 600;
-  transition: 0.3s;
-  border: 2px solid #82B64F;
-  background-color: #82B64F;
 }
 
-.pricing .box .btn-buy-featured:hover {
+.pricing .box .btn-wrap {
+  border: 2px solid #82B64F;
+  background-color: #82B64F;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.pricing .box .btn-wrap:hover {
+  border-color: #3f5c22;
+  color: #fff;
+  background-color: #3f5c22;
+}
+
+.pricing .box .btn-wrap-none .btn-buy-featured{
+  display: inline-block;
+  padding: 14px 45px; 
+  color: #82B64F;
+  transition: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pricing .box .btn-wrap-none .btn-buy-featured:hover{
+  color: #Fff;
+}
+
+.pricing .box .btn-wrap-none {
+  border: 2px solid #82B64F;
+  background: transparent;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.pricing .box .btn-wrap-none:hover {
   border-color: #3f5c22;
   color: #fff;
   background-color: #3f5c22;
