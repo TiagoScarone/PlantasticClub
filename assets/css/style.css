@@ -1428,7 +1428,7 @@ section {
   font-size: 15px;
   margin-bottom: 0;
   color: #4B3124;
-  padding: 10px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 .faq .faq-list .icon-show {
@@ -1817,11 +1817,12 @@ section {
 .contact .php-email-form button[type=submit] {
   background: #82B64F;
   border: 0;
-  padding: 12px 100%;
+  padding: 12px 39%;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -2350,18 +2351,25 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #4B3124;
   font-size: 14px;
-  background: #111111;
+  background: #F9C184;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1b1b1b;
+  background: #F9C184;
+}
+
+#footer img{
+  max-width: 50%;
 }
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #footer .footer-top .footer-contact h3 {
@@ -2427,15 +2435,16 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #aaaaaa;
+  color: #4B3124;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-weight: 600;
 }
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #3f5c22;
 }
 
 #footer .footer-newsletter {
