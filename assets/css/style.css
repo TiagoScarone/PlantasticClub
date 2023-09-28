@@ -449,13 +449,26 @@ h6 {
     padding-top: 58px;
   }
 
+  .rowhero {
+    display: flex;
+    flex-direction: column;
+  }
+
   #hero h1 {
-    font-size: 28px;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
+  }
+
+  #hero .btn-get-started{
+    width: 100%;
+    text-align: center;
   }
 }
 
