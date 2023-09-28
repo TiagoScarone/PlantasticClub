@@ -82,7 +82,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #f9c08491;
+  background: #f9c084bf;
   backdrop-filter: blur(12px);
   transition: all 0.5s;
   z-index: 997;
@@ -1483,6 +1483,13 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  border: 2px solid #FFE1E0;
+  border-radius: 19px;
+  box-sizing: border-box;
+}
+
+.team .member .member-img img:hover{
+  transform: scale(1.02);
 }
 
 .team .member .member-img:hover {
@@ -1547,7 +1554,7 @@ section {
   text-align: center;
   padding: 0 0 0 0;
   font-weight: 400;
-  padding: 0 40px;
+  padding: 0 15px;
 }
 
 .team .member:hover .social {

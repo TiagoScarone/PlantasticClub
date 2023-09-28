@@ -1482,6 +1482,13 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  border: 2px solid #ffe8e7;
+  border-radius: 19px;
+  box-sizing: border-box;
+}
+
+.team .member .member-img img:hover{
+  transform: scale(1.02);
 }
 
 .team .member .member-img:hover {
