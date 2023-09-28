@@ -200,9 +200,11 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: rgba(255, 232, 231, 0.99);
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.15);
   transition: 0.3s;
+  backdrop-filter: blur(22px);
 }
 
 .navbar .dropdown ul li {
@@ -221,7 +223,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #e03a3c;
+  color: #82B64F;
 }
 
 .navbar .dropdown:hover>ul {
@@ -2526,7 +2528,7 @@ section {
   margin-left: -4px;
   margin-top: 25px;
   position: absolute;
-  background: #bab275;
+  background: #95c564;
 }
 
 
