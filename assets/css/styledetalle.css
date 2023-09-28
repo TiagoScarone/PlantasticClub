@@ -370,7 +370,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100%;
+  height: 85vh;
   background-color: #F9C184;
   background-size: cover;
   position: relative;
@@ -2996,6 +2996,7 @@ section {
 @media (max-width: 768px) {
   #hero {
     text-align: center;
+    height: 115vh;
     padding-top: 58px;
   }
 
