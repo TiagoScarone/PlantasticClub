@@ -2875,7 +2875,7 @@ section {
 
   #hero {
     text-align: center;
-    padding-top: 140px;
+    padding-top: 160px;
     height: 113vh;
   }
 
@@ -2971,6 +2971,10 @@ section {
 
   #pricing {
     padding-bottom: 15%;
+  }
+
+  .pricing .box ul li {
+    padding: 0 20px;
   }
 
 }
