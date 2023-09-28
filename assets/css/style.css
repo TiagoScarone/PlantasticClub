@@ -2866,6 +2866,11 @@ section {
 
 
 @media (max-width: 768px) {
+
+  #header {
+    padding-left: 8px;
+  }
+
   #hero {
     text-align: center;
     padding-top: 88px;
@@ -2878,15 +2883,17 @@ section {
   }
 
   #hero h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     max-width: 100%;
+    padding: 0;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     text-align: center;
+    padding: 0 10px;
   }
 
   #hero .btn-get-started{
