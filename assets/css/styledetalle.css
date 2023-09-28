@@ -1843,12 +1843,13 @@ section {
 .contact .php-email-form button[type=submit] {
   background: #82B64F;
   border: 0;
-  padding: 12px 39%;
+  padding: 14px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 500;
+  width: 100%;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -2803,12 +2804,10 @@ section {
   height: 480px;
 }
 
-
 #favoritas {
-  padding: 90px 0 70px 0;
+  padding: 140px 0 140px 0;
   overflow: hidden;
   position: relative;
-  background: #FFE8E6;
 }
 
 #favoritas p{
@@ -2827,12 +2826,15 @@ section {
 .seccion-favoritas {
   display: flex;
   justify-content: center;
-  padding-top: 70px;
-  justify-content: space-evenly
+  gap: 20px;
+}
+
+.seccion-favoritas img{
+  cursor: pointer;
 }
 
 .plantas {
-  border: 2px solid #ffffff;
+  border: 2px solid #4B3124;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -2948,6 +2950,19 @@ section {
   color: #fff;
   font-weight: 400;
   text-align: center;
+}
+
+#metodos {
+  padding: 130px 0 120px 0;
+  overflow: hidden;
+  position: relative;
+  background: #FFE8E6;
+}
+
+.pagos {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly
 }
 
 @media (max-width: 992px) {

@@ -1842,12 +1842,13 @@ section {
 .contact .php-email-form button[type=submit] {
   background: #82B64F;
   border: 0;
-  padding: 12px 39%;
+  padding: 14px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 500;
+  width: 100%;
 }
 
 .contact .php-email-form button[type=submit]:hover {
